@@ -136,8 +136,8 @@ export function MarioBlog() {
       </section>
 
       <footer className="mario-footer">
-        <img src="https://www.imghippo.com/i/rDa4191ag.png"></img>
-        <div className="footer-star" aria-hidden="true">★</div>
+        <img src="https://i.imghippo.com/files/rDa4191ag.png"></img>
+        <div className="footer-star" aria-hidden="true">★<img src="https://i.imghippo.com/files/rDa4191ag.png"></img></div>
         <p>2026 SIGNATURE &amp; LETTER SS · ALL RIGHTS RESERVED</p>
         <a href="https://www.trustpilot.com/review/clublss.com" target="_blank" rel="noreferrer">RATE THIS BLOG ON TRUSTPILOT →</a>
       </footer>
