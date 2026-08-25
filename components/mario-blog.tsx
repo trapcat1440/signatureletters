@@ -83,7 +83,7 @@ export function MarioBlog() {
           <div className="brand-lockup">
             <div className="paper-note" aria-hidden="true"><span>SS</span><i /></div>
             <div>
-              <p className="eyebrow">WELCOME TO THE KINGDOM</p>
+              <p className="eyebrow">WELCOME TO THE MEDIA PLATFORM</p>
               <h1>Signature &amp; Letter SS</h1>
               <p className="subtitle">Blog / home · fashion · culture · digital life</p>
             </div>
@@ -137,7 +137,7 @@ export function MarioBlog() {
       <footer className="mario-footer">
         <div className="footer-star" aria-hidden="true">★</div>
         <p>2026 SIGNATURE &amp; LETTER SS · ALL RIGHTS RESERVED</p>
-        <a href="https://www.trustpilot.com/review/clublss.com" target="_blank" rel="noreferrer">RATE THIS KINGDOM ON TRUSTPILOT →</a>
+        <a href="https://www.trustpilot.com/review/clublss.com" target="_blank" rel="noreferrer">RATE THIS BLOG ON TRUSTPILOT →</a>
       </footer>
     </main>
   )
