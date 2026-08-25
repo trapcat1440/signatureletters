@@ -99,9 +99,9 @@ export function MarioBlog() {
       <nav className="mario-nav" aria-label="Main navigation">
         <div className="nav-inner">
           <a href="https://mdxpress-lyart.vercel.app/">EDITOR&apos;S CHOICE</a>
-          <a href="clublss.com/storesignatureblog.html">MERCH SHOP</a>
           <span className="nav-status"><i /> Reader </span>
         </div>
+        <a href="clublss.com/Certificates.html">FAQS</a>
       </nav>
 
       <section className="hero" aria-labelledby="page-title">
@@ -111,7 +111,7 @@ export function MarioBlog() {
           <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
         </div>
         <div className="question-block" aria-hidden="true">
-          <span>+-</span>
+          <span>OMG</span>
         </div>
       </section>
 
@@ -128,7 +128,7 @@ export function MarioBlog() {
               </div>
             </a>
             <button className="like-button" onClick={() => setLikes((current) => ({ ...current, [post.id]: (current[post.id] ?? 0) + 1 }))} aria-label={`Like ${post.title}`}>
-              <span aria-hidden="true">♥</span> {likes[post.id] ?? 0} Ups
+              <span aria-hidden="true">👍</span> {likes[post.id] ?? 0} Thumbs Up
             </button>
           </article>
       
