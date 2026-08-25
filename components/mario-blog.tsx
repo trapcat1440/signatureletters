@@ -81,9 +81,9 @@ export function MarioBlog() {
       <header className="mario-header">
         <div className="header-inner">
           <div className="brand-lockup">
-            <div className="paper-note" aria-hidden="true"><span>SS</span><i /></div>
+            <div className="paper-note" aria-hidden="true"><span>NEW</span><i /></div>
             <div>
-              <p className="eyebrow">WELCOME TO THE MEDIA PLATFORM</p>
+              <p className="eyebrow">Page contribution to the  PLATFORM</p>
               <h1>Signature &amp; Letter SS</h1>
               <p className="subtitle">Blog / home · fashion · culture · digital life</p>
             </div>
@@ -99,36 +99,36 @@ export function MarioBlog() {
       <nav className="mario-nav" aria-label="Main navigation">
         <div className="nav-inner">
           <a href="https://mdxpress-lyart.vercel.app/">EDITOR&apos;S CHOICE</a>
-          <a href="storesignatureblog.html">MERCH SHOP</a>
-          <span className="nav-status"><i /> PLAYER 1 ONLINE</span>
+          <a href="clublss.com/storesignatureblog.html">MERCH SHOP</a>
+          <span className="nav-status"><i /> Reader </span>
         </div>
       </nav>
 
       <section className="hero" aria-labelledby="page-title">
         <div className="hero-copy">
-          <p className="level-label">LEVEL SELECT</p>
-          <h2 id="page-title">Pick a pipe.<br /><span>Find a story.</span></h2>
+          <p className="level-label">Public Forum</p>
+          <h2 id="page-title">The.<br /><span>true blog.</span></h2>
           <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
         </div>
         <div className="question-block" aria-hidden="true">
-          <span>?</span>
+          <span>+-x /</span>
         </div>
       </section>
 
       <section className="world-grid" aria-label="Story categories">
         {posts.map((post, index) => (
           <article className={`world-card ${post.color}`} key={post.id}>
-            <div className="card-topline"><span>WORLD {index + 1}–{index + 1}</span><span>● ● ●</span></div>
+            <div className="card-topline"><span>Series {index + 1}–{index + 1}</span><span>● ● ●</span></div>
             <a className="post-link" href={post.href} target="_blank" rel="noreferrer">
               <div className="image-frame"><img src={post.image} alt={post.kicker} /></div>
               <div className="card-copy">
                 <p className="card-kicker">{post.kicker}</p>
                 <h3>{post.title}</h3>
-                <span className="visit">ENTER LEVEL <b>→</b></span>
+                <span className="visit"> Here <b>→</b></span>
               </div>
             </a>
             <button className="like-button" onClick={() => setLikes((current) => ({ ...current, [post.id]: (current[post.id] ?? 0) + 1 }))} aria-label={`Like ${post.title}`}>
-              <span aria-hidden="true">♥</span> {likes[post.id] ?? 0} COINS
+              <span aria-hidden="true">♥</span> {likes[post.id] ?? 0} Ups
             </button>
           </article>
         ))}
