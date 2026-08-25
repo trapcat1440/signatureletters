@@ -81,7 +81,7 @@ export function MarioBlog() {
       <header className="mario-header">
         <div className="header-inner">
           <div className="brand-lockup">
-            <div className="coin" aria-hidden="true">★</div>
+            <div className="paper-note" aria-hidden="true"><span>SS</span><i /></div>
             <div>
               <p className="eyebrow">WELCOME TO THE KINGDOM</p>
               <h1>Signature &amp; Letter SS</h1>
