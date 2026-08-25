@@ -40,6 +40,37 @@ export function MarioBlog() {
     return () => window.clearInterval(timer)
   }, [])
 
+  useEffect(() => {
+    let audioContext: AudioContext | null = null
+
+    const playClick = () => {
+      const AudioContextClass = window.AudioContext ||
+        (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
+      if (!AudioContextClass) return
+
+      audioContext ??= new AudioContextClass()
+      if (audioContext.state === 'suspended') void audioContext.resume()
+
+      const oscillator = audioContext.createOscillator()
+      const gain = audioContext.createGain()
+      oscillator.type = 'square'
+      oscillator.frequency.setValueAtTime(520, audioContext.currentTime)
+      oscillator.frequency.exponentialRampToValueAtTime(280, audioContext.currentTime + 0.045)
+      gain.gain.setValueAtTime(0.045, audioContext.currentTime)
+      gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.055)
+      oscillator.connect(gain)
+      gain.connect(audioContext.destination)
+      oscillator.start()
+      oscillator.stop(audioContext.currentTime + 0.06)
+    }
+
+    document.addEventListener('click', playClick)
+    return () => {
+      document.removeEventListener('click', playClick)
+      void audioContext?.close()
+    }
+  }, [])
+
   return (
     <main className="mario-page">
       <div className="sky-dots" aria-hidden="true" />
