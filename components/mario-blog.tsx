@@ -89,11 +89,11 @@ export function MarioBlog() {
             </div>
           </div>
           <div className="clock-card" aria-label={`Current time ${time}`}>
-            <span>WORLD 1–1</span>
+            <span>Release 1.1</span>
             <strong>{time}</strong>
           </div>
         </div>
-        <div className="ticker"><span>★ WANT TO SHARE POSTS? JOIN V.I.R.A.L ★</span> <a href="https://www.patreon.com/SignatureLetterSSblog/posts/v-i-r-l-program-163849819">ENTER THE CASTLE →</a></div>
+
       </header>
 
       <nav className="mario-nav" aria-label="Main navigation">
@@ -111,7 +111,7 @@ export function MarioBlog() {
           <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
         </div>
         <div className="question-block" aria-hidden="true">
-          <span>+-x /</span>
+          <span>+-x</span>
         </div>
       </section>
 
@@ -131,10 +131,12 @@ export function MarioBlog() {
               <span aria-hidden="true">♥</span> {likes[post.id] ?? 0} Ups
             </button>
           </article>
+      <img src="https://www.imghippo.com/i/rDa4191ag.png">
         ))}
       </section>
 
       <footer className="mario-footer">
+        <img src="https://www.imghippo.com/i/rDa4191ag.png"></img>
         <div className="footer-star" aria-hidden="true">★</div>
         <p>2026 SIGNATURE &amp; LETTER SS · ALL RIGHTS RESERVED</p>
         <a href="https://www.trustpilot.com/review/clublss.com" target="_blank" rel="noreferrer">RATE THIS BLOG ON TRUSTPILOT →</a>
