@@ -3,21 +3,21 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Signature & Letter SS | World Select',
-  description: 'Fashion, culture, brands, and digital life — choose your next world.',
+  title: 'Signature & Letter SS | Blog Media',
+  description: 'Fashion, culture, brands, and digital life — Rights Reserved.',
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/pixlr-image-6a890744916c36051e004df4-removebg-preview.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/pixlr-image-6a890744916c36051e004df4-removebg-preview.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/pixlr-image-6a890744916c36051e004df4-removebg-preview.png',
         type: 'image/svg+xml',
       },
     ],
