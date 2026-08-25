@@ -101,7 +101,7 @@ export function MarioBlog() {
           <a href="https://mdxpress-lyart.vercel.app/">EDITOR&apos;S CHOICE</a>
           <span className="nav-status"><i /> Reader </span>
         </div>
-        <a href="clublss.com/Certificates.html">FAQS</a>
+       
       </nav>
 
       <section className="hero" aria-labelledby="page-title">
@@ -111,7 +111,7 @@ export function MarioBlog() {
           <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
         </div>
         <div className="question-block" aria-hidden="true">
-          <span>OMG</span>
+          <span>100</span>
         </div>
       </section>
 
