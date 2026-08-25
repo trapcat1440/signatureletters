@@ -81,7 +81,7 @@ export function MarioBlog() {
       <header className="mario-header">
         <div className="header-inner">
           <div className="brand-lockup">
-            <div className="paper-note" aria-hidden="true"><span>NEW</span><i /></div>
+            <div className="paper-note" aria-hidden="true"><span>:0</span><i /></div>
             <div>
               <p className="eyebrow">Page contribution to the  PLATFORM</p>
               <h1>Signature &amp; Letter SS</h1>
@@ -111,7 +111,7 @@ export function MarioBlog() {
           <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
         </div>
         <div className="question-block" aria-hidden="true">
-          <span>+-x</span>
+          <span>+-</span>
         </div>
       </section>
 
