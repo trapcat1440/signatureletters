@@ -111,7 +111,7 @@ export function MarioBlog() {
           <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
         </div>
         <div className="question-block" aria-hidden="true">
-          <span>100</span>
+          <span>Ok</span>
         </div>
       </section>
 
