@@ -131,7 +131,7 @@ export function MarioBlog() {
               <span aria-hidden="true">♥</span> {likes[post.id] ?? 0} Ups
             </button>
           </article>
-      <img src="https://www.imghippo.com/i/rDa4191ag.png">
+      
         ))}
       </section>
 
