@@ -74,6 +74,10 @@ export function MarioBlog() {
   return (
     <main className="mario-page">
       <div className="sky-dots" aria-hidden="true" />
+      <div className="floating-timer" aria-label={`Current time ${time}`}>
+        <span>TIME</span>
+        <strong>{time}</strong>
+      </div>
       <header className="mario-header">
         <div className="header-inner">
           <div className="brand-lockup">
