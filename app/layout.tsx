@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/pixlr-image-6a890744916c36051e004df4-removebg-preview.png',
   },
 }
 
