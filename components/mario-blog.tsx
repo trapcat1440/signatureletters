@@ -8,7 +8,7 @@ const posts = [
     title: 'Nothin New',
     kicker: 'Internet culture & everyday discoveries',
     image: 'https://i.imghippo.com/files/wLj1649XA.png',
-    href: 'https://clublss.com/directory3.html',
+    href: 'https://clublss.com/directory3',
     color: 'blue',
   },
   {
@@ -16,7 +16,7 @@ const posts = [
     title: 'Fashion Flashy',
     kicker: 'Style, brands & cultural aesthetics',
     image: 'https://i.imghippo.com/files/JiKn7451Dk.png',
-    href: 'https://clublss.com/directory2.html',
+    href: 'https://clublss.com/directory2',
     color: 'red',
   },
   {
@@ -24,7 +24,7 @@ const posts = [
     title: 'Leisure & Places ',
     kicker: 'Entertainment, media & notable figures',
     image: 'https://i.imghippo.com/files/pCgQ9867ejc.png',
-    href: 'https://clublss.com/directory1.html',
+    href: 'https://clublss.com/directory1',
     color: 'green',
   },
 ]
