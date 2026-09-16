@@ -21,7 +21,7 @@ const posts = [
   },
   {
     id: 'post3',
-    title: 'Hollywood',
+    title: 'Leisure & Places ',
     kicker: 'Entertainment, media & notable figures',
     image: 'https://i.imghippo.com/files/pCgQ9867ejc.png',
     href: 'https://clublss.com/directory1.html',
