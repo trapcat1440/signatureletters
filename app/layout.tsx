@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'SIGNATURELETTERSBLOG'
-  description: 'Finding quick details to tell — Rights Reserved.',
+  description: 'Finding quick details to tell — Rights Reserved.'
   generator: 'v0.app',
   icons: {
     icon: [
