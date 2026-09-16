@@ -7,7 +7,7 @@ const posts = [
     id: 'post1',
     title: 'Nothin New',
     kicker: 'Internet culture & everyday discoveries',
-    image: 'https://i.imghippo.com/files/wLj1649XA.png'
+    image: 'https://i.imghippo.com/files/wLj1649XA.png',
     href: 'https://clublss.com/directory3.html',
     color: 'blue',
   },
@@ -15,7 +15,7 @@ const posts = [
     id: 'fashion1',
     title: 'Fashion Flashy',
     kicker: 'Style, brands & cultural aesthetics',
-    image: 'https://i.imghippo.com/files/JiKn7451Dk.png'
+    image: 'https://i.imghippo.com/files/JiKn7451Dk.png',
     href: 'https://clublss.com/directory2.html',
     color: 'red',
   },
