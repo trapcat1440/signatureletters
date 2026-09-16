@@ -7,7 +7,7 @@ const posts = [
     id: 'post1',
     title: 'Nothin New',
     kicker: 'Internet culture & everyday discoveries',
-    image: 'https://i.imghippo.com/files/cEcO4830xso.png',
+    image: 'https://i.imghippo.com/files/wLj1649XA.png',
     href: 'https://clublss.com/directory3.html',
     color: 'blue',
   },
@@ -15,7 +15,7 @@ const posts = [
     id: 'fashion1',
     title: 'Fashion Flashy',
     kicker: 'Style, brands & cultural aesthetics',
-    image: 'https://i.imghippo.com/files/dS2301HQ.png',
+    image: 'https://i.imghippo.com/files/JiKn7451Dk.png'
     href: 'https://clublss.com/directory2.html',
     color: 'red',
   },
@@ -23,7 +23,7 @@ const posts = [
     id: 'post3',
     title: 'Hollywood',
     kicker: 'Entertainment, media & notable figures',
-    image: 'https://i.imghippo.com/files/OR5825eo.png',
+    image: 'https://i.imghippo.com/files/pCgQ9867ejc.png',
     href: 'https://clublss.com/directory1.html',
     color: 'green',
   },
@@ -108,7 +108,7 @@ export function MarioBlog() {
         <div className="hero-copy">
           <p className="level-label">Public Forum</p>
           <h2 id="page-title">The.<br /><span>true blog.</span></h2>
-          <p>Three worlds of fresh observations, flashy fashion, and Hollywood energy. Jump in and explore.</p>
+          <p>WIKI.Signature Media Letters company </p>
         </div>
         <div className="question-block" aria-hidden="true">
           <span>Ok</span>
