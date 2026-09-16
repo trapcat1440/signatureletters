@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Signature & Letter SS | Blog Media',
-  description: 'Fashion, culture, brands, and digital life — Rights Reserved.',
+  title: 'SIGNATURELETTERSBLOG'
+  description: 'Finding quick details to tell — Rights Reserved.',
   generator: 'v0.app',
   icons: {
     icon: [
